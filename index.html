@@ -1,133 +1,58 @@
 
-<<<<<<< HEAD
-<html>
+<!DOCTYPE html>
+
+
 <head>
-<title>Come Colegial Home</title>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<link href='styles.css' rel='stylesheet' type='text/css'>
+    <!-- este es el titulo que aparece en el tab del browser -->
+    <title> Come Colegial! </title>
 
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+    <!-- Para hacer un link con la hoja de css-->
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href= "{% static 'CSS_files/stylesheet.css' %}">
 </head>
+
 <body>
-------------------
-<header><h1><a href="index.html">Come Colegial Web</a></h1>
-	<div class="menu">
-<ul id="headerlist"> 
-<li><a href="participantes.html"> Contact Me</a></li>
 
-esta lineas es nueva
+<!-- Este id wrap es para hacer un menu que se va a quedar fijo -->
+<div id= "wrapper">
+    <header>
 
-<li><a href="highlights.html"> Highlights</a></li>
-</ul>
-</div>
-</header>
-----------------------
-<div class="Encabezado">
-<h1><img src="Come Colegial.jpg" alt="Logo" width= "250" height= "256" align-items= "top" border="1px" ></h1>
+    <!-- El boton de home va a ser el logo de come colegial -->
+    <h1>Come Colegial</h1>
 
-<nav>
-	<ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Voluntarios</a></li>
-        <li><a href="#">Donaciones</a></li>
-        <li><a href="#">Directiva</a></li>
-    </ul>
-</nav>
-
-<div class='Cajita1'>
-<h2 class="titlebox1">Quienes Somos?</h2>
-
-<p class="pup">Somos una asociación estudiantil sin fines de lucro. Estudiantes voluntarios dispuestos a ayudar a nuestros compañeros colegiales. Una asociación estudiantil en UPRM que tiene como fin brindarle alimentos no perecederos a estudiantes con limitaciones económicas y que sufren de inseguridad alimentaria. </p> 
-
-</div> 
-<div class='Cajita2'>
-<h2 class="titlebox2">Como Trabajamos?</h2>
-
-<p class="pup2">Distribuimos compras de alimentos no perecederos cada dos a 3 semanas según sea el caso a estudiantes previamente identificados y referidos por las distintas dependencias del Decanato de Estudiantes, personal administrativo y profesores de UPRM. Comenzamos en el 2014 y se atienden estudiantes durante todo el año, en ambos semestres y verano. </p>
+        <div class="menu">
+        <ul id="headerlist"> 
+            <li><a href="#"> Miembros de Directiva</a></li>
+            <li><a href="#"> Ayudas Para Estudiantes</a></li>
+            <li><a href="voluntarios.html"> Voluntarios</a></li>
+            <li><a href="highlights.html"> Hacer Donaciones</a></li>
+            <li><a href="contacto.html"> Contactanos</a></li>
+        </ul>
+        </div>
+    </header>
 </div>
 
-<div class='Cajita3'>
-<h2 class="titlebox3">Actividades</h2>
+<!-- Este div es para la informacion de come colegial-->
+<div id="InfoPage">
+<div class="InfoCC"> 
+    <h2 class = "tituloInfoCC"> Quienes somos?</h2>
+    <p class = "pup"> Somos una asociación estudiantil sin fines de lucro. Estudiantes voluntarios dispuestos a ayudar a nuestros compañeros colegiales. 
+    Una asociación estudiantil en UPRM que tiene como fin brindarle alimentos no perecederos a estudiantes con limitaciones económicas y que sufren de inseguridad alimentaria.</p>
 
-<div class="Calendario">
- <table border='1'  bordercolor='#03C836' cellspacing='0' cellpadding='0' align=center>
-<tr><td><table cellspacing='0' cellpadding='0' align=center width='100' border='1'><tr><td  align=center bgcolor='#03C836'><font size='3' face='Tahoma'> <a href='html_calendar.php?prm=03&chm=-1' rel="nofollow"><</a></font> </td><td colspan=5 align=center bgcolor='#03C836'><font size='3' face='Tahoma'>Mar 2021 </font> </td><td  align=center bgcolor='#03C836'><font size='3' face='Tahoma'> <a href='html_calendar.php?prm=03&chm=1' rel="nofollow">></a>  </font></td></tr><tr><td><font size='3' face='Tahoma'><b>Sun</b></font></td><td><font size='3' face='Tahoma'><b>Mon</b></font></td><td><font size='3' face='Tahoma'><b>Tue</b></font></td><td><font size='3' face='Tahoma'><b>Wed</b></font></td><td><font size='3' face='Tahoma'><b>Thu</b></font></td><td><font size='3' face='Tahoma'><b>Fri</b></font></td><td><font size='3' face='Tahoma'><b>Sat</b></font></td></tr><tr><td> </td><td valign=top><font size='2' face='Tahoma'>1  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>2  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>3  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>4  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>5  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>6  
-<br>
- </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>7  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>8  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>9  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>10  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>11  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>12  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>13  
-<br>
- </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>14  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>15  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>16  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>17  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>18  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>19  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>20  
-<br>
- </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>21  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>22  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>23  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>24  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>25  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>26  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>27  
-<br>
- </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>28  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>29  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>30  
-<br>
- </font></td><td valign=top><font size='2' face='Tahoma'>31  
-<br>
- </font></td></tr></table></td></tr></table>
-</div>
-</div> 
+    <h2 class = "tituloMision"> Misión</h2>
+    <p class = "mision"> Nuestra misión es blablablablablabl</p>
+
+    <h2 class = "tituloVision"> Misión</h2>
+    <p class = "Vision"> Nuestra visión es blablablablablabl</p>
 </div>
 
-<form action=" " method="post">
-	.
+<div class="anuncios"> 
+    <h2 class = "TituloInfoCC"> Proximas Actividades</h2>
+    <p> aqui va algun plugin de java o algo para poner las actividades</p>
+</div>
+</div>
 
-
-
-
-
-</form>
 
 </body>
-
-</html>
-=======
->>>>>>> 1254ffb1091c93a0cd0babf9611f3c36d79820f1
